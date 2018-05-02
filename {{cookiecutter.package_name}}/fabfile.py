@@ -8,5 +8,5 @@ sys.path.append('.')
 
 
 def dev():
-    from curlbin import app
+    from {{cookiecutter.package_name}} import app
     app.run()
