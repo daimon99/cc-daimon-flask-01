@@ -10,7 +10,7 @@ class {{cookiecutter.package_name.capitalize()}}TestCase(unittest.TestCase):
 
     def test_index(self):
         rv = self.app.get('/')
-        self.assertIn('Welcome to {{cookiecutter.application_name}}', rv.data.decode())
+        self.assertIn('Welcome to {{cookiecutter.package_name}}', rv.data.decode())
 
 
 if __name__ == '__main__':
