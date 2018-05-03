@@ -2,6 +2,8 @@
 *.pyc
 *.egg-info/
 *.log*
+.env
+.flaskenv
 .idea/
 dist/
 logs/
