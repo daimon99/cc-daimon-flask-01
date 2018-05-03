@@ -1,5 +1,10 @@
 # cc-daimon-flask-01
 
+## requirements
+
+  * flask >= 1.0
+  * python-dotenv
+
 ## Usage
 
 Install [cookiecutter](https://github.com/audreyr/cookiecutter):
