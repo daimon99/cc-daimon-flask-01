@@ -12,3 +12,5 @@
       ```
     
   3. `flask run`
+  
+     > If you run with wsgi, don't forget to load the .env settings with your wsgi server.
