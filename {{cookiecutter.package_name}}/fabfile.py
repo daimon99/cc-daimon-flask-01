@@ -10,3 +10,7 @@ sys.path.append('.')
 def dev():
     from {{cookiecutter.package_name}} import app
     app.run()
+
+
+if __name__ == '__main__':
+    dev()
